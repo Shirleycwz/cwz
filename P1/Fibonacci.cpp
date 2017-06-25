@@ -2,10 +2,9 @@
 using namespace std;
 int main()
 {
-	int n,s;
+	int s;
 	int fi(int);
-	cin>>n;
-	for(int i=1;i<=n;i++)
+	for(int i=1;i<=20;i++)
 	{s=fi(i);
 	cout<<s<<endl;}
 	return 0;	
