@@ -11,81 +11,77 @@
 	
 </head>
 
-<body>
+<body bgcolor="white">
 
 	<style>
-    		#main{
-                margin:5px;
-                background:url(./p1.jpeg);
-                background-size: 1800px;
-                font:italic bold 23px//46px "SimHei";
-                padding-bottom: 300px;
-            }
-            #sd{
-                height: 80px;
-            }
-            #login{ 
-                    background:url(./p2.jpg);   
+			.main{
+					margin:5px;
+					background:url(./p1.jpg);
+					background-size: 1600px;
+					font:italic bold 23px//46px "SimHei";
+					padding-bottom: 300px;
+			}
+			#sd{
+					height: 80px;
+			}
+			.login{ 
 					background-size: 900px;					
 					width:300px;
-			        height:150px;
+					height:150px;
 					margin:auto;        
-            }		
-    </style>
+			}		
 			
-	<body bgcolor="white">
+	</style>
 	
-    <div id="main">
+	<div class="main">
 	
-    <marquee direction="left" width=300 height=200 loop=-1><h1 id="sd" align="center">欢迎登陆</h1></marquee>
+	<marquee direction="left" width=300 height=200 loop=-1><h1 id="sd" align="center">欢迎登陆</h1></marquee>
 	
-    <h1 align="center"><strong>登陆</strong></h1>
+	<h1 align="center"><strong>登陆</strong></h1>
 	
-    <div id="login" >
+	<div class="login" >
 	
 		<form enctype="multipart/form-data" action="ashx/login.ashx" method="post">
 		
-		<table align="center">
+			<table align="center">
         
-			<tr>
+				<tr>
 			
-				<td><label for="zh">账号：</label></td>
+					<td><label for="zh">账号：</label></td>
 				
-				<td><input type="text" id="zh"/></td>
+					<td><input type="text" id="zh"/></td>
 				
-			</tr>
+				</tr>
 			
-			<tr>
+				<tr>
 			
-				<td><label for="mm">密码：</label></td>
+					<td><label for="mm">密码：</label></td>
 				
-				<td><input type="password" id="mm"/></td>
+					<td><input type="password" id="mm"/></td>
 				
-			</tr>
+				</tr>
 			
-			<tr>
+				<tr>
 			
-				<td colspan=2>
+					<td colspan=2>
 				
-                <input type="submit" value="登陆">
+					<input type="submit" value="登陆">
 				
-                <input type="submit" value="注册">
+					<input type="submit" value="注册">
 				
-				<label><input id="remember" type="checkbox">记住密码</label><br>
+					<label><input id="remember" type="checkbox">记住密码</label><br>
 				
-				</td>
+					</td>
 			
-			</tr>
+				</tr>
 			
-		</table>
+			</table>
 		
 		</form> 
 	
 	</div>
 
     </div>
-	
-    </body>
 
 </body>
 
