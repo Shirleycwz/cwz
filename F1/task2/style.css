@@ -1,0 +1,18 @@
+body{
+	text-align: center;
+}
+.input{
+ 	font-size: 13px;
+ }
+#showinformation{
+ 	font-size: 15px;
+ 	background-color: #000;
+}
+#showinformation div div{
+ 	width: 300px;
+ 	float: left;
+ 	background-color: #ddd;
+}
+.buttonstyle{
+	cursor: pointer;
+}
