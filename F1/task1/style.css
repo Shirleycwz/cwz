@@ -83,9 +83,21 @@ body {
 
 }
 
-.buttonbg p{
-	font-size: 20px;
-	font-family: "黑体";
-	color:#FF4083;
-	text-shadow: 3px 1px 5px #666;
+#arrow{
+	position: relative;
 }
+#arrow:after, #arrow:before {
+	position: absolute;
+	border: 10px dashed transparent;
+	border-left: 10px dashed #666;
+	width: 5px;
+	height: 0;
+	top: 0;
+	right: -20px;
+	content: ' ';
+}
+#arrow:before {
+	border-left-color: #000;
+	right: -21px;
+}
+
